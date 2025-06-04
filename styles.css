@@ -106,26 +106,6 @@ a {
 
 
 
-.nav-right {
-  display: flex;
-  gap: 1.7rem;
-
-}
-
-.nav-link {
-  font-weight: 700;
-  color: rgb(165, 165, 90);
-  font-size: 1.2rem;
-  cursor: pointer;
-  padding: 5px 10px;
-  border-radius: 15px;
-  transition: background-color 0.3s ease;
-}
-
-.nav-link:hover {
-  background-color: #5a4040;
-}
-
 /* Home Page Sections */
 
 .section {
