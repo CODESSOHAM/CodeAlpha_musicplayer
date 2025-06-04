@@ -112,17 +112,17 @@ a {
   }
 
   .logo {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .logoimg {
     top: 5px;
-    width: 25px;
+    width: 23px;
     height: auto;
   }
 
   .nav-icon {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 4px;
   }
 
@@ -139,7 +139,7 @@ a {
 
   .search-bar button {
     left: auto;
-    right: 15px;
+    right: 18px;
     font-size: 1.2rem;
   }
 }
