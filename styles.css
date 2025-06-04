@@ -339,6 +339,76 @@ a {
   text-align: center;
 }
 
+
+@media (max-width: 768px) {
+  .section {
+    padding: 1rem;
+  }
+
+  .section h2 {
+    font-size: 1.5rem;
+  }
+
+  .cards-container {
+    gap: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .card.artist-card,
+  .card.song-card {
+    width: 140px;
+    height: auto;
+    padding: 0.8rem 0.4rem;
+  }
+
+  .card.artist-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0.5rem;
+  }
+
+  .card.artist-card .special-icon {
+    bottom: 20px;
+    left: 90px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .card.artist-card p {
+    font-size: 0.85rem;
+  }
+
+  .card.song-card img {
+    height: 110px;
+  }
+
+  .card.song-card .play-icon {
+    bottom: 45px;
+    left: 105px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .card.song-card p {
+    font-size: 0.9rem;
+  }
+
+  .scroll-button {
+    width: 30px;
+    height: 30px;
+    font-size: 1.2rem;
+  }
+
+  .scroll-button.left {
+    left: 0px;
+  }
+
+  .scroll-button.right {
+    right: 0px;
+  }
+}
+
 /* Music Bar */
 
 .music-bar {
