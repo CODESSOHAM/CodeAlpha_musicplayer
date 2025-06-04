@@ -78,12 +78,13 @@ prevBtn?.addEventListener('click', () => {
 
 nextBtn?.addEventListener('click', () => {
   if (currentPlaylist.length === 0) return;
+
   if (isRepeat) {
     playSong(currentSongIndex);
   } else {
     let newIndex = currentSongIndex + 1;
     if (newIndex >= currentPlaylist.length) newIndex = 0;
-    playSong(newIndex);
+    playSong(newIndex); // <-- this is already updating everything
   }
 });
 
