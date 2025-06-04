@@ -640,3 +640,10 @@ width: 150px;
   background-color: #1db954;
   border-radius: 3px;
 }
+
+@media (max-width: 768px) {
+  html, body {
+    overflow-y: hidden;
+    height: 100vh;
+  }
+}
