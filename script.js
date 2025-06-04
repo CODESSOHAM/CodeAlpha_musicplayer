@@ -81,8 +81,8 @@ nextBtn?.addEventListener('click', () => {
   if (isRepeat) {
     playSong(currentSongIndex);
   } else {
-    let newIndex = currentSongIndex - 1;
-    if (newIndex < 0) newIndex = currentPlaylist.length - 1;
+    let newIndex = currentSongIndex + 1;
+    if (newIndex >= currentPlaylist.length) newIndex = 0;
     playSong(newIndex);
   }
 });
