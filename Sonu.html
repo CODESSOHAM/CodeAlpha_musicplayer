@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sonu Nigham - Songs</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="logo"><img class="logoimg" src="musiclogo.png" alt="" height="42px">&nbspSohamiFy</div>
+            <a href="index.html" class="nav-icon" title="Home">🏠</a>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="What do you want to play?" autocomplete="off" />
+                <button class="search-icon" id="searchBtn" title="Search">🔍</button>
+            </div>
+        </div>
+    </nav>
+  <div class="artist-page">
+    <h1>Voice of Sonu Nigham</h1>
+  </div>
+
+  <section class="section trending-songs">
+    <h2>Popular-Melodies</h2>
+    <div class="cards-container">
+      <div class="card song-card" data-src="dolna3.mp3" data-cover="dolna3.jpg">
+        <img class="datacover" src="dolna3.JPG" alt="Song " />
+        <p>Mere Dolna 3.0- Bhul Bhoolaiya 3</p>
+        <img src="play.webp" alt="Icon" class="play-icon" />
+      </div>
+      <div class="card song-card" data-src="mainagar.mp3" data-cover="mainagar.jpg">
+        <img class="datacover" src="mainagar.jpg" alt="Song " />
+        <p>Main Agar Kahoon- Om Shanti Om</p>
+        <img src="play.webp" alt="Icon" class="play-icon" />
+      </div>
+      <div class="card song-card" data-src="abhimujh.mp3" data-cover="abhimujh.jpg">
+        <img class="datacover" src="abhimujh.jpg" alt="Song " />
+        <p>Abhi Mujh Me Kahin- Agneepath</p>
+        <img src="play.webp" alt="Icon" class="play-icon" />
+      </div>
+      <div class="card song-card" data-src="kalhona.mp3" data-cover="kalhona.jpg">
+        <img class="datacover" src="kalhona.jpg" alt="Song " />
+        <p>Kal Ho Na Ho- Title Track</p>
+        <img src="play.webp" alt="Icon" class="play-icon" />
+      </div>
+    </div>
+  </section>
+
+  </section>
+
+  
+
+
+  <footer class="music-bar">
+    <img id="songCover" src="default.jpg" alt="Song Cover"
+      style="height: 40px; width: 40px; border-radius: 5px; margin-right: 10px; object-fit: cover;">
+
+    <button id="prevBtn" title="Previous">
+      <img src="prev.png" alt="Previous" />
+    </button>
+
+    <button id="playPauseBtn" title="Play/Pause">
+      <img id="playPauseIcon" src="strt.png" alt="Play/Pause" />
+    </button>
+
+    <button id="nextBtn" title="Next">
+      <img src="next.png" alt="Next" />
+    </button>
+
+    <button id="repeatBtn" title="Repeat">
+      <img class="n" id="repeatIcon" src="repeat.png" alt="Repeat" />
+    </button>
+
+    <div id="nowPlaying"><strong>Select a song to play</strong></div>
+
+    <input type="range" id="progressBar" min="0" max="100" value="0" step="1" class="neon-slider"">
+</footer>
+
+
+  <script src=" script.js"></script>
+</body>
+
+</html>

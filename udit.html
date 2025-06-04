@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Udit Narayan - Songs</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="logo"><img class="logoimg" src="musiclogo.png" alt="" height="42px">&nbspSohamiFy</div>
+            <a href="index.html" class="nav-icon" title="Home">🏠</a>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="What do you want to play?" autocomplete="off" />
+                <button class="search-icon" id="searchBtn" title="Search">🔍</button>
+            </div>
+        </div>
+    </nav>
+    <div class="artist-page">
+        <h1>90s with Udit Narayan</h1>
+    </div>
+
+    <section class="section trending-songs">
+        <h2>Popular-90s</h2>
+        <div class="cards-container">
+            <div class="card song-card" data-src="aeho.mp3" data-cover="aeho.jpg">
+                <img class="datacover" src="aeho.jpg" alt="Song " />
+                <p>Aeho Meri Zindagi mein</p>
+                <img src="play.webp" alt="Icon" class="play-icon" />
+            </div>
+            <div class="card song-card" data-src="hogaya.mp3" data-cover="hogaya.jpg">
+                <img class="datacover" src="hogaya.jpg" alt="Song " />
+                <p>Hogaya Hai Tujhko To pyar Sajnai</p>
+                <img src="play.webp" alt="Icon" class="play-icon" />
+            </div>
+            <div class="card song-card" data-src="rukja.mp3" data-cover="rukja.jpg">
+                <img class="datacover" src="rukja.jpg" alt="Song " />
+                <p>Ruk Ja O Dil Deewane-DDLJ</p>
+                <img src="play.webp" alt="Icon" class="play-icon" />
+            </div>
+            <div class="card song-card" data-src="dhadkan1.mp3" data-cover="dhadkan.jpg">
+                <img class="datacover" src="dhadkan.jpg" alt="Song " />
+                <p>Dil Ne Yeh Kaha Hai Dil Se</p>
+                <img src="play.webp" alt="Icon" class="play-icon" />
+            </div>
+            <div class="card song-card" data-src="aemere.mp3" data-cover="aemere.jpg">
+                <img class="datacover" src="aemere.jpg" alt="Song " />
+                <p>Ae Mere Humsafar</p>
+                <img src="play.webp" alt="Icon" class="play-icon" />
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+
+
+
+    <footer class="music-bar">
+        <img id="songCover" src="default.jpg" alt="Song Cover"
+            style="height: 40px; width: 40px; border-radius: 5px; margin-right: 10px; object-fit: cover;">
+
+        <button id="prevBtn" title="Previous">
+            <img src="prev.png" alt="Previous" />
+        </button>
+
+        <button id="playPauseBtn" title="Play/Pause">
+            <img id="playPauseIcon" src="strt.png" alt="Play/Pause" />
+        </button>
+
+        <button id="nextBtn" title="Next">
+            <img src="next.png" alt="Next" />
+        </button>
+
+        <button id="repeatBtn" title="Repeat">
+            <img class="n" id="repeatIcon" src="repeat.png" alt="Repeat" />
+        </button>
+
+        <div id="nowPlaying"><strong>Select a song to play</strong></div>
+
+        <input type="range" id="progressBar" min="0" max="100" value="0" step="1" class="neon-slider"">
+</footer>
+
+
+  <script src=" script.js"></script>
+</body>
+
+</html>
