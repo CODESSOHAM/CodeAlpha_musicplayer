@@ -552,47 +552,45 @@ width: 150px;
 
 @media (max-width: 768px) {
   .music-bar {
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    height: auto;
-    padding: 1rem 0.5rem;
-    gap: 1rem;
-  }
-
-  .music-bar button {
-    font-size: 1.5rem;
-  }
-
-  .music-bar button img,
-  .n {
-    width: 30px;
-  }
-
-  .neon-slider {
-    width: 90%;
-    margin: 0.5rem 0;
+    justify-content: space-between;
+    height: 100px; /* maintain height */
+    padding: 0.5rem 1rem;
+    gap: 0.5rem;
   }
 
   #songCover {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
   }
 
   #nowPlaying {
     font-size: 1rem;
+    color: #fff;
+    flex-basis: 100%;
     text-align: center;
-    margin-top: 0.5rem;
+    margin-top: -5px;
   }
 
-  .artist-page {
-    padding: 1rem;
+  .neon-slider {
+    width: 100%;
+    height: 5px;
+    margin: 2px 0;
   }
 
-  .artist-page h1 {
-    font-size: 1.5rem;
-    text-align: center;
+  .music-bar button,
+  .music-bar button img,
+  .n {
+    font-size: 1.2rem;
+    width: 28px;
+    height: 28px;
+  }
+
+  .music-bar button img {
+    width: 100%;
+    height: 100%;
   }
 }
 
